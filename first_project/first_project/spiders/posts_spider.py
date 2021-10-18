@@ -4,7 +4,8 @@ class PostsSpider(scrapy.Spider):
     name = "posts"
 
     start_urls = [
-        'https://subhendudash02.github.io'
+        'https://subhendudash02.github.io',
+        "https://medium.com"
     ]
 
     def parse(self, response):
